@@ -1,0 +1,81 @@
+<html>
+    <head>
+    <title>
+        Bounce Animation Project
+    </title>
+    <style>
+        
+        .container{
+            width:80vw;
+            height:80vh;
+            border:2px solid;
+            display: flex;
+            margin-left:10vw;
+            background-color: aliceblue;
+         margin-top: 7vh;
+         position: relative;
+          background-image: url("Physics1.png");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+            background-position:center;
+      
+         
+        }
+.ball{
+    position: absolute;
+    margin-left:20px;
+    margin-top:20px;
+    width:100px;
+    height: 100px;
+    border:2px solid;
+    border-radius: 50px;
+    background-color:blue;
+   
+   
+    animation:animX 5s infinite linear,animY 0.9s infinite alternate ease-out; 
+    
+}
+
+@keyframes animX{
+from{
+    left: 0;
+
+}
+to{
+    left:80%;
+}
+}
+
+.titlename{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 20px;
+margin-bottom:0px;
+padding: 0;
+font-size:larger;}
+@keyframes animY{
+    from{
+        bottom:0%;
+        background-color: rgb(32, 242, 249);
+    }
+    to{
+        bottom:60%;
+        background-color: rgb(115, 142, 229);
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <p class="titlename"><b>BALL BOUNCING PROJECT</b></p>
+    </div>
+    <div class="container">
+        <div class="ball">
+
+    </div>
+    </div>
+</body>
+</html>
