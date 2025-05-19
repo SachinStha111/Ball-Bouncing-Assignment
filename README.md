@@ -1,4 +1,5 @@
-# Ball-Bouncing-Assignment
+## Bouncing Ball Animation Project
+
 This is a simple and visually engaging web animation that simulates a bouncing ball using only **HTML** and **CSS**. It uses keyframe animations to move a ball both horizontally and vertically, with smooth transitions and color changes.
 
 ## What You'll Learn
@@ -12,4 +13,4 @@ This is a simple and visually engaging web animation that simulates a bouncing b
 - HTML5
 - CSS3
 
-## Project Structure
+
